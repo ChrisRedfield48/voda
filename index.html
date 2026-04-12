@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>День Рождения</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="z_YeDRnlhvhw7AgJW17JSfXenTRyrSqI56ir7LBPTuOWg8AqudeUoYZX2vkN9nL23H0zZ4RsDcnQRShLocJP4oiz.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="reset2.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="header-eyebrow">◆ Архив дней рождения ◆</div>
+    <h1>Найти <em>дату</em><br>рождения</h1>
+    <div class="divider"></div>
+    <div class="header-sub">введите имя — получите ответ</div>
+  </div>
+  <div class="card">
+    <div class="corner-br"></div>
+    <form id="main_form" method="post">
+      <div class="field">
+        <label>Имя</label>
+        <input type="text" id="firstName" placeholder="Александр" autocomplete="off" required/>
+      </div>
+      <div class="field">
+        <label>Фамилия</label>
+        <input type="text" id="lastName" placeholder="Пушкин" autocomplete="off" required/>
+      </div>
+      <button class="btn" id="searchBtn">Найти день рождения</button>
+    </form>
+    <div class="status-line" id="statusLine"></div>
+    <div class="result" id="result">
+      <div class="result-label">Результат поиска</div>
+      <div class="result-name" id="rName"></div>
+      <div class="result-date" id="rDate"></div>
+      <div class="result-info" id="rInfo"></div>
+      <div class="result-disclaimer" id="rDisclaimer"></div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
