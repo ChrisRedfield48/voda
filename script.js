@@ -107,8 +107,8 @@ floorOne:{
 },
 floorTwo:{
   apartmentSeventeen:{
-    fullName: 'Николай Захаров',
-    birthDay: '04.07.1971 - 54'
+    fullName: 'Елизавета Калачева',
+    birthDay: 'undefined'
   }
 },
 floorThree:{
