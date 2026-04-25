@@ -92,8 +92,8 @@ floorFour:{
 },
 floorFive:{
   apartmentFifteen:{
-    fullName: 'Алексей Макаров',
-    birthDay: '28.01.1980 - 46'
+    fullName: 'Рябов Никита',
+    birthDay: '30.05.2008 - 17'
   }
 }
   },
