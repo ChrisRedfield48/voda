@@ -92,7 +92,7 @@ floorFour:{
 },
 floorFive:{
   apartmentFifteen:{
-    fullName: 'Рябов Никита',
+    fullName: 'Никита Рябов',
     birthDay: '30.05.2008 - 17'
   }
 }
