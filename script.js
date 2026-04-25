@@ -107,7 +107,7 @@ floorOne:{
 },
 floorTwo:{
   apartmentSeventeen:{
-    fullName: 'Елизавета Калачева',
+    fullName: 'Василий Белов',
     birthDay: 'undefined'
   }
 },
